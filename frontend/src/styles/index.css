@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #f8fafc;
+}
+
+@layer components {
+  .verdict-green  { @apply bg-emerald-50 border-emerald-400 text-emerald-800; }
+  .verdict-yellow { @apply bg-amber-50 border-amber-400 text-amber-800; }
+  .verdict-red    { @apply bg-red-50 border-red-400 text-red-800; }
+  .verdict-gray   { @apply bg-slate-50 border-slate-400 text-slate-700; }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "GT001",
+    "claim": "Regular aerobic exercise reduces the risk of type 2 diabetes in overweight adults.",
+    "expected_classification": "Clinically Supported",
+    "expected_confidence": "High",
+    "notes": "Multiple large RCTs (e.g., Diabetes Prevention Program) confirm this.",
+    "pico": {
+      "population": "Overweight adults",
+      "intervention": "Regular aerobic exercise",
+      "comparison": "Sedentary lifestyle",
+      "outcome": "Reduced risk of type 2 diabetes"
+    }
+  },
+  {
+    "id": "GT002",
+    "claim": "Aspirin prevents heart attacks in all adults.",
+    "expected_classification": "Misleading / Overgeneralized",
+    "expected_confidence": "High",
+    "notes": "Aspirin is recommended for secondary prevention only. For primary prevention in low-risk individuals, the risk of bleeding may outweigh benefits (2018 ACC/AHA guidelines).",
+    "pico": {
+      "population": "All adults (overgeneralized)",
+      "intervention": "Aspirin",
+      "comparison": "No aspirin",
+      "outcome": "Prevention of heart attacks"
+    }
+  },
+  {
+    "id": "GT003",
+    "claim": "Vitamin C cures the common cold.",
+    "expected_classification": "Contradicted",
+    "expected_confidence": "High",
+    "notes": "Cochrane reviews show Vitamin C does not prevent or cure colds in the general population. May reduce duration slightly.",
+    "pico": {
+      "population": "General population",
+      "intervention": "Vitamin C supplementation",
+      "comparison": "Placebo",
+      "outcome": "Cure of common cold"
+    }
+  },
+  {
+    "id": "GT004",
+    "claim": "High-dose omega-3 supplements prevent Alzheimer's disease.",
+    "expected_classification": "Insufficient Evidence",
+    "expected_confidence": "Moderate",
+    "notes": "Evidence is inconclusive. Some observational studies suggest benefit but RCTs have not confirmed prevention.",
+    "pico": {
+      "population": "General population",
+      "intervention": "High-dose omega-3 supplements",
+      "comparison": "Placebo",
+      "outcome": "Prevention of Alzheimer's disease"
+    }
+  },
+  {
+    "id": "GT005",
+    "claim": "Statins cause muscle damage in all patients who take them.",
+    "expected_classification": "Misleading / Overgeneralized",
+    "expected_confidence": "High",
+    "notes": "Statin-associated myopathy occurs in a small minority (0.1-0.5%). The claim 'all patients' is a severe overgeneralization.",
+    "pico": {
+      "population": "All patients on statins",
+      "intervention": "Statin therapy",
+      "comparison": "No statins",
+      "outcome": "Muscle damage"
+    }
+  },
+  {
+    "id": "GT006",
+    "claim": "The Mediterranean diet reduces cardiovascular mortality in adults with metabolic syndrome.",
+    "expected_classification": "Clinically Supported",
+    "expected_confidence": "High",
+    "notes": "PREDIMED trial (RCT, N=7447) demonstrated significant reduction in major cardiovascular events.",
+    "pico": {
+      "population": "Adults with metabolic syndrome",
+      "intervention": "Mediterranean diet",
+      "comparison": "Low-fat diet",
+      "outcome": "Reduced cardiovascular mortality"
+    }
+  },
+  {
+    "id": "GT007",
+    "claim": "Coffee consumption causes pancreatic cancer.",
+    "expected_classification": "Contradicted",
+    "expected_confidence": "High",
+    "notes": "Early 1981 case-control study by MacMahon was retracted/refuted. Subsequent meta-analyses found no causal link.",
+    "pico": {
+      "population": "General population",
+      "intervention": "Coffee consumption",
+      "comparison": "No coffee",
+      "outcome": "Pancreatic cancer"
+    }
+  },
+  {
+    "id": "GT008",
+    "claim": "Mindfulness-based cognitive therapy prevents relapse in recurrent depression.",
+    "expected_classification": "Clinically Supported",
+    "expected_confidence": "Moderate",
+    "notes": "NICE guidelines recommend MBCT for recurrent depression. Multiple RCTs confirm efficacy.",
+    "pico": {
+      "population": "Adults with recurrent depression",
+      "intervention": "Mindfulness-based cognitive therapy",
+      "comparison": "Usual care or antidepressants",
+      "outcome": "Prevention of depressive relapse"
+    }
+  }
+]
